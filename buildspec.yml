@@ -1,6 +1,6 @@
 version: 0.2
 env:
-  secrets-manager:
+  arn:aws:secretsmanager:us-east-2:309067785194:secret:prod/sonarqu-2TUmld:
     LOGIN: prod/sonarqu:e207e9e5445c8bdaa63a22255ac23668511be564
     HOST: prod/sonarqu:https://sonarcloud.io
     Organization: prod/sonarqu:ddn-tech
